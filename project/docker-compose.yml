@@ -53,7 +53,7 @@ services:
       MAIL_USERNAME: ""
       MAIL_PASSWORD: ""
       FROM_NAME: "Zhaisan Sars"
-      FROM_ADDRESS: zhaisansars@gmail.com
+      FROM_ADDRESS: john.smith@example.com
 
   postgres:
     image: 'postgres:14.0'
