@@ -82,9 +82,7 @@ func (app *Config) rpcListen() error {
 			continue
 		}
 		go rpc.ServeConn(rpcConn)
-
 	}
-
 }
 
 func connectToMongo() (*mongo.Client, error) {
